@@ -476,7 +476,8 @@ When the Proteus simulation is started:
 - Use timer interrupts for accurate timing.
 - Add PWM-based LED brightness control.
 ## OUTPUT
-![Uploading image.png…]()
+ <img width="1919" height="1152" alt="Screenshot 2026-10-28 110845" src="https://github.com/user-attachments/assets/1f5b825a-624d-467a-9213-60f7ab08551d" />
+
 
 
 ## 21\. Result
