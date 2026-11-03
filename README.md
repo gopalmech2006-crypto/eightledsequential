@@ -475,6 +475,9 @@ When the Proteus simulation is started:
 - Add an LCD to display the operating mode.
 - Use timer interrupts for accurate timing.
 - Add PWM-based LED brightness control.
+## OUTPUT
+![Uploading image.png…]()
+
 
 ## 21\. Result
 
@@ -484,68 +487,3 @@ The Embedded C program generates sequential binary output patterns through Port 
 
 Thus, the sequential operation of eight LEDs using the AT89C51 microcontroller was successfully demonstrated through Proteus simulation.
 
-## 22\. Conclusion
-
-This project demonstrates the use of the AT89C51 microcontroller for controlling multiple output devices using Embedded C programming.
-
-The eight LEDs are connected to Port 1, and the microcontroller generates sequential output signals to produce a running-light effect.
-
-The circuit was designed and tested using Proteus Design Suite, and the program was compiled using Keil µVision IDE.
-
-The project provides practical knowledge of microcontroller architecture, digital output interfacing, bit manipulation, delay generation, and embedded system simulation.
-
-## 23\. References
-
-1. AT89C51 Microcontroller Datasheet – Microchip Technology.
-2. 8051 Microcontroller Architecture and Interfacing.
-3. Keil µVision Embedded C Compiler Documentation.
-4. Proteus Design Suite User Documentation.
-5. Electronic Devices and Circuit Theory – Robert L. Boylestad.
-
----
-
-## Project Summary
-
-| Parameter | Description |
-| --- | --- |
-| Project Name | Eight-LED Sequential Lighting System |
-| Microcontroller | AT89C51 |
-| Input | Clock and reset |
-| Output | Eight LEDs |
-| Output Port | Port 1 |
-| Programming Language | Embedded C |
-| IDE | Keil µVision |
-| Simulation Software | Proteus |
-| Supply Voltage | +5V DC |
-| Crystal Frequency | 11.0592 MHz |
-| LED Delay | Approximately 500 ms |
-| LED Sequence | LED 1 to LED 8 |
-
----
-
-**Developed as an Embedded Systems and Microcontroller Simulation Project using AT89C51 and Proteus Design Suite.**
-
-## Suggested GitHub repository structure
-
-text
-
-```text
-Eight-LED-Sequential-Lighting-System/
-│
-├── README.md
-│
-├── Source_Code/
-│   └── main.c
-│
-├── Proteus_Simulation/
-│   ├── LED_Sequential.pdsprj
-│   └── circuit_diagram.png
-│
-├── Hex_File/
-│   └── main.hex
-│
-└── Results/
-    └── simulation_output.png
-```
-
-Important technical note: The 330 Ω calculation gives approximately 9.09 mA per LED under ideal assumptions. Check the AT89C51 port-current limits before driving eight LEDs directly. For a practical circuit, use suitable transistor or buffer drivers if required.
